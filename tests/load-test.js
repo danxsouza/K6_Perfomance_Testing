@@ -19,7 +19,7 @@ export const options = {
 }
 
 export default function () {
-    http.get('https://httpbin.test.k6.io');
+    http.get('https://test.k6.io');
     sleep(1);
 
     http.get('https://test.k6.io/contact.php');
